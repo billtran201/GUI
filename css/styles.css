@@ -1,0 +1,73 @@
+/* Style for the Body */
+body {
+    /* Background color */
+    background-color: #FFE4C4; 
+}
+
+/* Center Tag, anything with this class/tag will inherit the 'center' attributes */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for hyperlink text/image */
+a:visited {
+    /* Removing underline style from the text and set the color to blue */
+    text-decoration: none;
+    color: #6495ED;
+
+}
+
+a {
+    /* Removing underline style from the text and set the color to blue */
+    text-decoration: none;
+    color: #6495ED;
+
+}
+
+/* Style for Table */
+table {
+    /* Border without width, a.k.a 1 line, a.k.a collapsed, and set the width of the table to screen size 100% */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style for even-number cells */
+tr:nth-child(even) {
+    /* Even number cells have different background color */
+    background-color: #FFFAF0;
+}
+
+/* Table Data and Table Headers */
+td, th {
+    /* Set border to 1px, solid, with padding of 8px and all context inside centered */
+    border: 1px solid #DEB887;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Generic Div Styling */
+div {
+    /* Set all divs to have bold font and shared the same font family */
+    color: #5F9EA0;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
